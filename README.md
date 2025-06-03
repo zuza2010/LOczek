@@ -1,6 +1,76 @@
 # LOczek
 <!DOCTYPE html>
 <html lang="pl">
+  /* style.css */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #ff9900;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+#pielęgnacja ul {
+  padding-left: 20px;
+}
+
+.product {
+  display: inline-block;
+  width: 30%;
+  margin: 20px 1%;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  max-width: 200px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -81,4 +151,5 @@
       <a href="https://www.instagram.com/loczek" target="_blank">Instagram</a> | <a href="https://www.facebook.com/loczek" target="_blank">Facebook</a>
     </div>
   </footer>
+
 
